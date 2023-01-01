@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/button";
+import Container from "./components/container";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <>
         <Button design="outline"></Button>
       </>
+      <Container></Container>
     </div>
   );
 }
